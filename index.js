@@ -33,10 +33,3 @@ var numberOne = [1, 2, 3];
 var numberTwo = [1, 2, 3];
 //11) Crea una tupla per definire un array di 5 elementi, i primi 3 devono essere stringhe e gli ultimi due numeri.
 var genericArray;
-// 12) Qual è la differenza tra type e interface?
-/*
-  in Typescript la differenza tra type e interface è che interface permettono
-  di estendere nuove funzioanalità  in qualsiasi momento, mentre "Type" definisce un oggetto e non può essere riapeerto per aggiungere nuove
-  proprietà puoi comunque ottenere un effetto simile usando le union types o le intersection types..
-*/
-//13) Definisci un'interfaccia in TypeScript per un oggetto dotato di proprietà "firstname", "lastname", e "age".

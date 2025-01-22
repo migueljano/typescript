@@ -60,3 +60,9 @@ let genericArray: [string, string, string, number, number]
 */
 
 //13) Definisci un'interfaccia in TypeScript per un oggetto dotato di proprietà "firstname", "lastname", e "age".
+// 14)Crea un'interfaccia per un utente con email obbligatoria e telefono opzionale.
+interface Person {
+    firstname: string;
+    lastname: string;
+    age?: number; //<-- renderlo opzionale basta aggiungere(?)
+}
