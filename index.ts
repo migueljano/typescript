@@ -36,3 +36,27 @@ let number: number | undefined  = undefined;
 
 //9) Crea un tipo per rappresentare i giorni della settimana usando union di stringhe letterali.
 type giorniSettimana = 'Domenica' | 'lunedì' | 'martedì' | 'mercoledì' | 'giovedì' |'viernì' | 'sabato'
+
+let oggi: giorniSettimana;
+
+oggi = 'lunedì';  
+oggi = 'sabato'; 
+// oggi = 'festa'; --> errore
+
+//10) Tipizza il seguente array di numeri nei due modi possibili:
+
+const numbers = [1, 2, 3]
+const numberOne: number[] = [1, 2, 3] 
+const numberTwo: Array<number> = [1, 2, 3]
+
+//11) Crea una tupla per definire un array di 5 elementi, i primi 3 devono essere stringhe e gli ultimi due numeri.
+
+let genericArray: [string, string, string, number, number]
+// 12) Qual è la differenza tra type e interface?
+/*
+  in Typescript la differenza tra type e interface è che interface permettono
+  di estendere nuove funzioanalità  in qualsiasi momento, mentre "Type" definisce un oggetto e non può essere riapeerto per aggiungere nuove 
+  proprietà puoi comunque ottenere un effetto simile usando le union types o le intersection types..
+*/
+
+//13) Definisci un'interfaccia in TypeScript per un oggetto dotato di proprietà "firstname", "lastname", e "age".
